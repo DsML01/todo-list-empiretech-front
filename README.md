@@ -1,4 +1,4 @@
-# Welcome to React Router!
+# Welcome to my To-Do list!
 
 A modern, production-ready template for building full-stack React applications using React Router.
 
@@ -15,6 +15,10 @@ A modern, production-ready template for building full-stack React applications u
 - 📖 [React Router docs](https://reactrouter.com/)
 
 ## Getting Started
+
+### Clone the repo
+
+
 
 ### Installation
 

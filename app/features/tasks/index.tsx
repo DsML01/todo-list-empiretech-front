@@ -81,9 +81,9 @@ export function Tasks({initialTasks}: TasksProps) {
   };
 
   //Eu sei que a filtragem deve ser feita no backend, mas por fins didáticos, estou fazendo aqui no front-end
-  const backlog_tasks: Task[] = tasks.filter(task => !task.is_completed && !task.is_in_progress);
-  const todo_tasks: Task[] = tasks.filter(task => !task.is_completed && task.is_in_progress);
   const completed_tasks: Task[] = tasks.filter(task => task.is_completed);
+  const todo_tasks: Task[] = tasks.filter(task => task.is_in_progress &&!task.is_completed);  
+  const backlog_tasks: Task[] = tasks.filter(task => !task.is_completed && !task.is_in_progress);
 
   console.log("Initial Tasks:", initialTasks);
   console.log("Backlog Tasks:", backlog_tasks);
