@@ -18,7 +18,9 @@ A modern, production-ready template for building full-stack React applications u
 
 ### Clone the repo
 
-
+```bash
+https://github.com/DsML01/todo-list-empiretech-front.git
+```
 
 ### Installation
 
