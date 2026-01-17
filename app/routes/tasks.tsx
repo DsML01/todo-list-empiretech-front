@@ -1,5 +1,5 @@
 import type { Route } from "./+types/tasks";
-import { Tasks } from "../features/tasks/tasks";
+import { Tasks } from "../features/tasks";
 import { api } from "~/lib/api/client";
 import { useLoaderData } from "react-router";
 import type { Task } from "~/lib/api/types";
